@@ -1,0 +1,44 @@
+.coin {
+  width: 24%;
+  padding: 1em;
+  background-color: blanchedalmond;
+}
+.coin > h3 {
+  text-align: center;
+}
+
+.coinWrapper {
+  padding: 1em;
+  display: flex;
+  gap:1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coin__list  {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.coin__image {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 678px) {
+  .coin {
+    width: 70%;
+  }
+}
