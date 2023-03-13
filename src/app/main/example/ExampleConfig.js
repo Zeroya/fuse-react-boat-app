@@ -17,14 +17,6 @@ const ExampleConfig = {
   },
   routes: [
     {
-      path: "page1",
-      element: <Example />,
-    },
-    {
-      path: "page2",
-      element: <Example />,
-    },
-    {
       path: "page3",
       element: <Example />,
     },
