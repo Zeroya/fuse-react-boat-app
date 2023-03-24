@@ -11,7 +11,7 @@ const navigationConfig = [
   {
     id: "example-component",
     title: "Example",
-    translate: "page 1",
+    translate: "cryptocurrency top",
     type: "item",
     // icon: "heroicons-outline:star",
     url: "page1",
@@ -19,7 +19,7 @@ const navigationConfig = [
   {
     id: "new-page",
     title: "New Page",
-    translate: "page 2",
+    translate: "cryptocurrency charts",
     type: "item",
     // icon: "heroicons-outline:star",
     url: "page2",
@@ -27,10 +27,18 @@ const navigationConfig = [
   {
     id: "page3",
     title: "New Page",
-    translate: "page 3",
+    translate: "react-hook-form",
     type: "item",
     // icon: "heroicons-outline:star",
     url: "page3",
+  },
+  {
+    id: "page4",
+    title: "New Page",
+    translate: "form io ",
+    type: "item",
+    // icon: "heroicons-outline:star",
+    url: "page4",
   },
 ];
 

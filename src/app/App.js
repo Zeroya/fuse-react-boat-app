@@ -15,6 +15,11 @@ import FuseAuthorization from "@fuse/core/FuseAuthorization";
 import settingsConfig from "app/configs/settingsConfig";
 import withAppProviders from "./withAppProviders";
 import { AuthProvider } from "./auth/AuthContext";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Formio } from "@formio/react";
+import FormioContrib from "@formio/contrib";
+Formio.use(FormioContrib);
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 // import axios from 'axios';
 /**
