@@ -9,9 +9,11 @@ import Error404Page from "../main/404/Error404Page";
 import ExampleConfig from "../main/example/ExampleConfig";
 import CryptoConfig from "../main/crypto/CryptoConfig";
 import ChartConfig from "../main/charts/ChartsConfig";
+import FormConfig from "../main/forma/FormConfig";
+import FormioConfig from "../main/formio/FormioConfig";
 
 //const routeConfigs = [ExampleConfig, SignOutConfig, SignInConfig, SignUpConfig];
-const routeConfigs = [CryptoConfig, ChartConfig, ExampleConfig];
+const routeConfigs = [CryptoConfig, ChartConfig, FormConfig, FormioConfig];
 
 const routes = [
   ...FuseUtils.generateRoutesFromConfigs(routeConfigs, settingsConfig.defaultAuth),
@@ -28,6 +30,11 @@ const routes = [
   {
     path: "/page3",
     element: <Navigate to="/page3" />,
+    auth: settingsConfig.defaultAuth,
+  },
+  {
+    path: "/page4",
+    element: <Navigate to="/page4" />,
     auth: settingsConfig.defaultAuth,
   },
   {
